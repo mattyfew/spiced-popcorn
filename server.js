@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-spicedPg(process.env.DATABASE_URL || 'postgres:postgres:password/localhost:5432/petition')
+// spicedPg(process.env.DATABASE_URL || 'postgres:postgres:password/localhost:5432/petition')
 
 
 app.get('/', (req, res) => {
